@@ -9,7 +9,7 @@ IMAGE_WIDTH = 256 # Width of the final photo, in pixels
 
 def main():
   if len(sys.argv) != 2:
-    print('[-] Usage: v1sualizati0n.py your_file')
+    print('[-] Usage: python v1sualizati0n.py your_file')
     exit(1)
 
   input_file_name = sys.argv[1]
